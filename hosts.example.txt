@@ -1,0 +1,3 @@
+# copy to hosts.txt and put your own ssh aliases here (hosts.txt is not tracked)
+# one alias per line, '#' comments out
+server-name

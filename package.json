@@ -1,0 +1,46 @@
+{
+  "name": "pi-list-sync",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Sync Pi tools and skills from a separate private snapshot repository when a session ends.",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "sync",
+    "dotfiles",
+    "skills"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bailynlove/pi-list-sync.git"
+  },
+  "homepage": "https://github.com/bailynlove/pi-list-sync#readme",
+  "bugs": {
+    "url": "https://github.com/bailynlove/pi-list-sync/issues"
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "scripts": {
+    "test": "node --experimental-strip-types --test test/*.test.mjs",
+    "prepublishOnly": "npm test"
+  },
+  "pi": {
+    "extensions": [
+      "./pi/extensions/pi-list-sync.ts"
+    ]
+  },
+  "files": [
+    "pi/extensions/pi-list-sync.ts",
+    "sync.sh",
+    "brief.py",
+    "hosts.example.txt",
+    ".code-only",
+    "README.md",
+    "LICENSE"
+  ]
+}

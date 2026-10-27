@@ -1,0 +1,20 @@
+# Only package source belongs in this repository.
+/*
+!/.gitignore
+!/.code-only
+!/package.json
+!/README.md
+!/LICENSE
+!/sync.sh
+!/brief.py
+!/hosts.example.txt
+!/test/
+!/pi/
+/pi/*
+!/pi/extensions/
+/pi/extensions/*
+!/pi/extensions/pi-list-sync.ts
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
